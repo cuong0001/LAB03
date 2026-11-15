@@ -1,0 +1,94 @@
+[
+  {
+    "id": "G01",
+    "title": "Dragon Bridge fire and water show",
+    "text": "The Dragon Bridge crosses the Han River in central Da Nang. On Saturday and Sunday nights at about 9 pm the dragon head breathes fire and then sprays water for a few minutes. Watching is free; the east bank near the bridge gives a good view.",
+    "source": "Personal visit, checked on the city tourism website (Nov 2026)",
+    "category": "landmark",
+    "tags": ["night", "free", "bridge", "weekend"]
+  },
+  {
+    "id": "G02",
+    "title": "My Khe Beach",
+    "text": "My Khe is a long sandy beach on the east side of the city, about 10 minutes by taxi from the centre. Swimming is best early in the morning when the sea is calm and lifeguards are on duty. Public access is free; deck chairs cost extra.",
+    "source": "Personal visit (2026)",
+    "category": "beach",
+    "tags": ["swimming", "sunrise", "free", "family"]
+  },
+  {
+    "id": "G03",
+    "title": "Han Market",
+    "text": "Han Market is a two-floor indoor market next to the Han River. The ground floor sells dried seafood and snacks; the upper floor sells fabric and tailored clothes. Bargaining is expected.",
+    "source": "Personal visit (2026)",
+    "category": "market",
+    "tags": ["shopping", "souvenirs", "food", "indoor"]
+  },
+  {
+    "id": "G04",
+    "title": "Best time to visit",
+    "text": "The dry season runs from about February to August and is the best time for the beach. From September to December there is heavy rain, and storms are most likely in October and November.",
+    "source": "Summary of national weather service climate notes"
+  },
+  {
+    "id": "G05",
+    "title": "Marble Mountains (Ngu Hanh Son)",
+    "text": "A cluster of five limestone and marble hills about 10 km south of the city centre. Thuy Son is the main peak open to visitors, featuring caves, Buddhist sanctuaries, and viewpoints. Entrance is 40,000 VND, with an optional glass elevator for 15,000 VND.",
+    "source": "Personal visit, checked on Danang Fantasticity portal (2026)",
+    "category": "nature",
+    "tags": ["caves", "pagoda", "hiking", "viewpoint"]
+  },
+  {
+    "id": "G06",
+    "title": "Linh Ung Pagoda on Son Tra Peninsula",
+    "text": "Located on Monkey Mountain, this pagoda is famous for its 67-metre-tall white Lady Buddha statue overlooking the sea. Entrance and parking are free. Visitors should dress modestly and avoid feeding or getting too close to the wild macaques.",
+    "source": "Personal visit (2026)",
+    "category": "landmark",
+    "tags": ["pagoda", "free", "statue", "scenic"]
+  },
+  {
+    "id": "G07",
+    "title": "Museum of Cham Sculpture",
+    "text": "Located near the west end of the Dragon Bridge, this museum holds the world's largest collection of sandstone sculptures from the ancient Champa Kingdom. Open daily from 7:30 am to 5:00 pm; general admission is 60,000 VND (20,000 VND for students).",
+    "source": "Museum ticket counter and Da Nang tourism schedule (2026)",
+    "category": "museum",
+    "tags": ["history", "culture", "indoor", "art"]
+  },
+  {
+    "id": "G08",
+    "title": "Sun World Ba Na Hills and Golden Bridge",
+    "text": "A mountaintop resort west of the city reached by a long cable car ride. It features the famous Golden Bridge held by giant stone hands, a French-style village, and an indoor theme park. Standard out-of-province adult tickets cost around 1,000,000 VND.",
+    "source": "Sun World Ba Na Hills official price list (2026)",
+    "category": "theme_park",
+    "tags": ["cable_car", "bridge", "family", "full_day"]
+  },
+  {
+    "id": "G09",
+    "title": "Con Market",
+    "text": "Con Market is the busiest local wholesale and street food hub in central Da Nang. Its indoor food court and outdoor afternoon stalls serve cheap regional specialties like Mi Quang, Banh Xeo, and sweet soups for 20,000 to 40,000 VND per dish.",
+    "source": "Personal visit (2026)",
+    "category": "market",
+    "tags": ["street_food", "local", "budget", "shopping"]
+  },
+  {
+    "id": "G10",
+    "title": "Da Nang Cathedral (Pink Church)",
+    "text": "Built in 1923 on Tran Phu Street, this Catholic church is known for its pastel pink facade and weathercock steeple. Entering the courtyard for photos is free during opening hours, though the interior is mainly open during scheduled Mass.",
+    "source": "Personal visit (2026)",
+    "category": "landmark",
+    "tags": ["architecture", "free", "photography", "history"]
+  },
+  {
+    "id": "G11",
+    "title": "Son Tra Night Market",
+    "text": "Situated right near the approach to the Dragon Bridge on the east bank, this pedestrian night market operates from 6:00 pm to midnight. It is a convenient spot to try grilled seafood, fresh fruit juices, and pick up small souvenirs before the 9:00 pm bridge show.",
+    "source": "Personal visit (2026)",
+    "category": "market",
+    "tags": ["night", "street_food", "seafood", "walking"]
+  },
+  {
+    "id": "G12",
+    "title": "Getting around Da Nang",
+    "text": "Ride-hailing apps like Grab and Xanh SM are the easiest way to get around, with transparent fares for both motorbikes and cars. Renting a scooter costs about 120,000 to 150,000 VND per day and is popular for riding along the coastal road or up Hai Van Pass.",
+    "source": "Personal travel notes and local ride-hailing app rates (2026)"
+  }
+]

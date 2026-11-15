@@ -1,0 +1,5 @@
+# Python 3.11+; first three pins are the versions Lab 3 tested together
+streamlit==1.66.0
+requests==2.34.2
+python-dotenv==1.2.2
+numpy>=1.26
