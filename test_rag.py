@@ -2,13 +2,14 @@
 import rag
 
 TESTS = [  # (type, question, expected entry ID or "-")
-    ("answerable", "When does the Dragon Bridge breathe fire?", "G01"),
-    ("answerable", "Where can I buy tailored clothes?", "G03"),
-    ("answerable", "Which months are best for the beach?", "G04"),
-    ("answerable", "How much is a ticket to Ba Na Hills?", "G08"),
-    ("paraphrase", "Is there a free show with fire on the river at the weekend?", "G01"),
-    ("not in guide", "What time does Han Market open?", "-"),        # topic exists, fact missing
-    ("not in guide", "What is the best hospital in the city?", "-"),  # topic missing entirely
+    ("answerable", "How do I get to Cat Ba Island from the city?", "G01"),
+    ("answerable", "When do the red flamboyant flowers bloom?", "G11"),
+    ("answerable", "What is banh da cua?", "G08"),
+    ("answerable", "When is the Do Son buffalo fighting festival?", "G16"),
+    ("paraphrase", "Where can I see rare monkeys with golden heads?", "G03"),
+    ("not in guide", "How much is a ticket to the Opera House?", "-"),  # topic exists, fact missing
+    ("not in guide", "What is the best hospital in the city?", "-"),    # topic missing entirely
+    ("answerable (two entries)", "How long does it take to go from Hanoi to Cat Ba?", "G13 + G01"),
 ]
 
 rag.check_server()

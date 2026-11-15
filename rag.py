@@ -7,9 +7,9 @@ import requests
 
 from config import CHAT_MODEL, EMBED_MODEL, OLLAMA_URL
 
-CITY = "Da Nang"   # your city
+CITY = "Hai Phong"   # your city
 TOP_K = 3          # entries put into the context
-MIN_SCORE = 0.30   # weakest answerable best score 0.34 (tailored clothes) vs highest off-guide 0.24 (hospital)
+MIN_SCORE = 0.30   # weakest answerable best score 0.44 (golden-head monkeys) vs highest off-guide 0.28 (hospital)
 IDK_ANSWER = "I don't know. My travel guide has no information about that."
 REQUIRED_FIELDS = ("id", "title", "text", "source")
 
@@ -120,7 +120,7 @@ def generate(question, context):
         "think": True,   # model này luôn suy nghĩ; True để tách phần đó khỏi content
         "messages": [{"role": "system", "content": SYSTEM},
                      {"role": "user", "content": prompt}],
-        "options": {"temperature": 0, "num_predict": 2048}}, timeout=300)  # token suy nghĩ cũng bị tính
+        "options": {"temperature": 0, "num_predict": 4096}}, timeout=300)  # token suy nghĩ cũng bị tính
     answer = data.get("message", {}).get("content", "")
     if "</think>" in answer:                      # dự phòng nếu suy nghĩ vẫn lọt vào content
         answer = answer.split("</think>", 1)[1]

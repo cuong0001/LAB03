@@ -1,94 +1,122 @@
 [
   {
     "id": "G01",
-    "title": "Dragon Bridge fire and water show",
-    "text": "The Dragon Bridge crosses the Han River in central Da Nang. On Saturday and Sunday nights at about 9 pm the dragon head breathes fire and then sprays water for a few minutes. Watching is free; the east bank near the bridge gives a good view.",
-    "source": "Personal visit, checked on the city tourism website (Nov 2026)",
-    "category": "landmark",
-    "tags": ["night", "free", "bridge", "weekend"]
+    "title": "Cat Ba Island and how to get there",
+    "text": "Cat Ba is the largest island of Hai Phong and the main base for visiting Lan Ha Bay. From the city, go by bus or car across the Tan Vu - Lach Huyen sea bridge to Got pier, then take the short car ferry to Cai Vieng on Cat Ba, a crossing of about 15 to 20 minutes. Cat Ba town has hotels, seafood restaurants and the small Cat Co beaches.",
+    "source": "Hai Phong tourism information (to verify)",
+    "category": "island",
+    "tags": ["ferry", "beach", "seafood", "overnight"]
   },
   {
     "id": "G02",
-    "title": "My Khe Beach",
-    "text": "My Khe is a long sandy beach on the east side of the city, about 10 minutes by taxi from the centre. Swimming is best early in the morning when the sea is calm and lifeguards are on duty. Public access is free; deck chairs cost extra.",
-    "source": "Personal visit (2026)",
-    "category": "beach",
-    "tags": ["swimming", "sunrise", "free", "family"]
+    "title": "Lan Ha Bay",
+    "text": "Lan Ha Bay lies south-east of Cat Ba Island and has hundreds of limestone islets, quiet lagoons and small sandy beaches. Most visitors join a day cruise from Cat Ba that includes kayaking and swimming stops. Together with Ha Long Bay, the Cat Ba archipelago was recognised as a UNESCO World Heritage site in 2023.",
+    "source": "UNESCO World Heritage listing, Ha Long Bay - Cat Ba Archipelago (to verify)",
+    "category": "bay",
+    "tags": ["kayaking", "cruise", "islands", "swimming"]
   },
   {
     "id": "G03",
-    "title": "Han Market",
-    "text": "Han Market is a two-floor indoor market next to the Han River. The ground floor sells dried seafood and snacks; the upper floor sells fabric and tailored clothes. Bargaining is expected.",
-    "source": "Personal visit (2026)",
-    "category": "market",
-    "tags": ["shopping", "souvenirs", "food", "indoor"]
+    "title": "Cat Ba National Park",
+    "text": "Cat Ba National Park covers much of the island's forested interior. It is home to the Cat Ba langur, a critically endangered monkey with a golden-yellow head that lives only on this island. A popular hiking trail climbs to the Ngu Lam peak viewpoint; wear good shoes because the path is steep and rocky.",
+    "source": "Cat Ba National Park information (to verify)",
+    "category": "nature",
+    "tags": ["hiking", "wildlife", "forest", "viewpoint"]
   },
   {
     "id": "G04",
-    "title": "Best time to visit",
-    "text": "The dry season runs from about February to August and is the best time for the beach. From September to December there is heavy rain, and storms are most likely in October and November.",
-    "source": "Summary of national weather service climate notes"
+    "title": "Do Son Beach",
+    "text": "Do Son is a seaside peninsula about 20 km south-east of the city centre and the closest beach area to Hai Phong. The coast is divided into three zones, with hotels and seafood restaurants along the shore. The water is often brownish because of river sediment, so it is better for a seaside walk and seafood than for clear-water swimming.",
+    "source": "Hai Phong tourism information (to verify)",
+    "category": "beach",
+    "tags": ["seafood", "day_trip", "sunset", "family"]
   },
   {
     "id": "G05",
-    "title": "Marble Mountains (Ngu Hanh Son)",
-    "text": "A cluster of five limestone and marble hills about 10 km south of the city centre. Thuy Son is the main peak open to visitors, featuring caves, Buddhist sanctuaries, and viewpoints. Entrance is 40,000 VND, with an optional glass elevator for 15,000 VND.",
-    "source": "Personal visit, checked on Danang Fantasticity portal (2026)",
-    "category": "nature",
-    "tags": ["caves", "pagoda", "hiking", "viewpoint"]
+    "title": "Hai Phong Opera House",
+    "text": "The Opera House is a French colonial building completed in 1912 in the centre of the city. Its cream facade, columns and the square in front of it make it the city's best-known photo spot, especially in the evening when it is lit up. Concerts and official events are still held inside.",
+    "source": "Hai Phong city heritage information (to verify)",
+    "category": "landmark",
+    "tags": ["architecture", "french_colonial", "photo", "city_centre"]
   },
   {
     "id": "G06",
-    "title": "Linh Ung Pagoda on Son Tra Peninsula",
-    "text": "Located on Monkey Mountain, this pagoda is famous for its 67-metre-tall white Lady Buddha statue overlooking the sea. Entrance and parking are free. Visitors should dress modestly and avoid feeding or getting too close to the wild macaques.",
-    "source": "Personal visit (2026)",
-    "category": "landmark",
-    "tags": ["pagoda", "free", "statue", "scenic"]
+    "title": "Du Hang Pagoda",
+    "text": "Du Hang is one of the oldest pagodas in Hai Phong, first built around a thousand years ago and rebuilt several times since. It is located in Le Chan district and is known for its fine wooden carvings, a stone bridge over a small pond and a quiet garden. Visitors should dress modestly and keep their voices down.",
+    "source": "Hai Phong cultural heritage information (to verify)",
+    "category": "temple",
+    "tags": ["history", "buddhist", "architecture", "quiet"]
   },
   {
     "id": "G07",
-    "title": "Museum of Cham Sculpture",
-    "text": "Located near the west end of the Dragon Bridge, this museum holds the world's largest collection of sandstone sculptures from the ancient Champa Kingdom. Open daily from 7:30 am to 5:00 pm; general admission is 60,000 VND (20,000 VND for students).",
-    "source": "Museum ticket counter and Da Nang tourism schedule (2026)",
+    "title": "Hai Phong Museum",
+    "text": "The Hai Phong Museum is housed in a red French-era building on Dien Bien Phu street in the city centre. Its exhibits cover the history of the port city, the Bach Dang river battles and local culture. It is a good indoor stop on a hot or rainy afternoon.",
+    "source": "Hai Phong Museum information (to verify)",
     "category": "museum",
-    "tags": ["history", "culture", "indoor", "art"]
+    "tags": ["history", "indoor", "culture", "city_centre"]
   },
   {
     "id": "G08",
-    "title": "Sun World Ba Na Hills and Golden Bridge",
-    "text": "A mountaintop resort west of the city reached by a long cable car ride. It features the famous Golden Bridge held by giant stone hands, a French-style village, and an indoor theme park. Standard out-of-province adult tickets cost around 1,000,000 VND.",
-    "source": "Sun World Ba Na Hills official price list (2026)",
-    "category": "theme_park",
-    "tags": ["cable_car", "bridge", "family", "full_day"]
+    "title": "Banh da cua (crab noodle soup)",
+    "text": "Banh da cua is the signature dish of Hai Phong: wide, flat red-brown rice noodles in a broth made from small field crabs, topped with crab paste, fried tofu, water spinach and sometimes pork rolls. It is usually eaten for breakfast or lunch at small local shops all over the city.",
+    "source": "Local food knowledge (to verify)",
+    "category": "food",
+    "tags": ["noodles", "crab", "breakfast", "local"]
   },
   {
     "id": "G09",
-    "title": "Con Market",
-    "text": "Con Market is the busiest local wholesale and street food hub in central Da Nang. Its indoor food court and outdoor afternoon stalls serve cheap regional specialties like Mi Quang, Banh Xeo, and sweet soups for 20,000 to 40,000 VND per dish.",
-    "source": "Personal visit (2026)",
-    "category": "market",
-    "tags": ["street_food", "local", "budget", "shopping"]
+    "title": "Banh mi que (stick bread)",
+    "text": "Banh mi que is a long, thin, crispy baguette filled with pate and a spicy chili sauce. It costs only a few thousand dong per stick, so people often order several at once. It is a typical Hai Phong street snack, found at small stalls in the evening.",
+    "source": "Local food knowledge (to verify)",
+    "category": "food",
+    "tags": ["street_food", "cheap", "snack", "evening"]
   },
   {
     "id": "G10",
-    "title": "Da Nang Cathedral (Pink Church)",
-    "text": "Built in 1923 on Tran Phu Street, this Catholic church is known for its pastel pink facade and weathercock steeple. Entering the courtyard for photos is free during opening hours, though the interior is mainly open during scheduled Mass.",
-    "source": "Personal visit (2026)",
-    "category": "landmark",
-    "tags": ["architecture", "free", "photography", "history"]
+    "title": "Nem cua be (square crab spring rolls)",
+    "text": "Nem cua be are square-shaped fried spring rolls filled with sea crab meat, pork, mushrooms and glass noodles. They are crispy outside and are eaten with fresh herbs, rice noodles and a sweet and sour dipping sauce. Many seafood restaurants in the city serve them.",
+    "source": "Local food knowledge (to verify)",
+    "category": "food",
+    "tags": ["crab", "fried", "seafood", "local"]
   },
   {
     "id": "G11",
-    "title": "Son Tra Night Market",
-    "text": "Situated right near the approach to the Dragon Bridge on the east bank, this pedestrian night market operates from 6:00 pm to midnight. It is a convenient spot to try grilled seafood, fresh fruit juices, and pick up small souvenirs before the 9:00 pm bridge show.",
-    "source": "Personal visit (2026)",
-    "category": "market",
-    "tags": ["night", "street_food", "seafood", "walking"]
+    "title": "Red flamboyant flower season",
+    "text": "Hai Phong is called the city of red flamboyant flowers (hoa phuong do). The trees along the main streets bloom bright red mainly in May and June, and the city holds its Red Flamboyant Flower Festival in that period. This is a good time for photos in the city centre.",
+    "source": "Hai Phong tourism information (to verify)"
   },
   {
     "id": "G12",
-    "title": "Getting around Da Nang",
-    "text": "Ride-hailing apps like Grab and Xanh SM are the easiest way to get around, with transparent fares for both motorbikes and cars. Renting a scooter costs about 120,000 to 150,000 VND per day and is popular for riding along the coastal road or up Hai Van Pass.",
-    "source": "Personal travel notes and local ride-hailing app rates (2026)"
+    "title": "Best time to visit",
+    "text": "Hai Phong has four seasons. Late spring (April to early June) and autumn (September to November) are the most pleasant times. Summer from June to August is hot and good for beaches and Cat Ba, but storms can stop boats and ferries. Winter from December to February is cool and often grey.",
+    "source": "Summary of national weather service climate notes (to verify)"
+  },
+  {
+    "id": "G13",
+    "title": "Getting from Hanoi to Hai Phong",
+    "text": "Hai Phong is about 100 km east of Hanoi. The Hanoi - Hai Phong expressway makes the trip about 1.5 to 2 hours by car or bus. Trains also run from Hanoi to Hai Phong station in the city centre, a slower but scenic option of about 2.5 hours.",
+    "source": "Transport operator information (to verify)"
+  },
+  {
+    "id": "G14",
+    "title": "Cat Bi Airport",
+    "text": "Cat Bi International Airport is only about 5 km from the city centre, around 15 to 20 minutes by taxi or ride-hailing car. It has domestic flights to Ho Chi Minh City, Da Nang and other cities, plus a few international routes.",
+    "source": "Airport information (to verify)"
+  },
+  {
+    "id": "G15",
+    "title": "Tan Vu - Lach Huyen sea bridge",
+    "text": "Opened in 2017, the Tan Vu - Lach Huyen bridge is one of the longest sea-crossing bridges in Vietnam, at about 5.4 km. It links the city with Cat Hai island and the road to the Cat Ba ferry, and gives wide views over the sea and the deep-water port.",
+    "source": "Hai Phong infrastructure information (to verify)",
+    "category": "landmark",
+    "tags": ["bridge", "sea_view", "drive", "photo"]
+  },
+  {
+    "id": "G16",
+    "title": "Do Son buffalo fighting festival",
+    "text": "The Do Son buffalo fighting festival is a traditional festival held every year on the 9th day of the 8th lunar month, usually in September. Specially trained buffaloes face each other in an arena in Do Son, and the event draws large crowds, so arrive early.",
+    "source": "Hai Phong cultural festival information (to verify)",
+    "category": "festival",
+    "tags": ["tradition", "event", "crowded", "autumn"]
   }
 ]
