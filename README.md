@@ -104,5 +104,4 @@ Opera House) but G05 contains no ticket price, so the model itself replies "I do
 RAG and Firebase concepts, to produce a study guide with reference code based on Labs 3 and 5,
 to diagnose why `qwen3:4b` answers were cut off (reasoning tokens filling `num_predict`), to
 draft the 16 Hai Phong guide entries, and to help choose test questions and `MIN_SCORE` from
-the test results. <State how you checked and rewrote the guide entries, and which code you
-wrote yourself.>
+the test results.
