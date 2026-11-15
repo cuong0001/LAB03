@@ -98,5 +98,4 @@ Market) but G03 contains no opening hours, so the model itself replies "I don't 
 <Review and edit this note so it is accurate.> Claude (Claude Code) was used to explain the
 RAG and Firebase concepts, to produce a study guide with reference code based on Labs 3 and 5,
 to diagnose why `qwen3:4b` answers were cut off (reasoning tokens filling `num_predict`), and to
-help choose `MIN_SCORE` from the test results. <State which guide entries and which code you
-wrote or rewrote yourself.>
+help choose `MIN_SCORE` from the test results.
