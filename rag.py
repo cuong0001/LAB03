@@ -120,7 +120,10 @@ def generate(question, context):
         "think": True,   # model này luôn suy nghĩ; True để tách phần đó khỏi content
         "messages": [{"role": "system", "content": SYSTEM},
                      {"role": "user", "content": prompt}],
-        "options": {"temperature": 0, "num_predict": 4096}}, timeout=300)  # token suy nghĩ cũng bị tính
+        # temperature 0 made qwen3's reasoning loop on some questions; 0.1 keeps answers stable
+        # but still lets it break out of a repeat (top_p/top_k from Qwen's recommended settings)
+        "options": {"temperature": 0.1, "top_p": 0.95, "top_k": 20,
+                    "num_predict": 4096}}, timeout=120)  # token suy nghĩ cũng bị tính
     answer = data.get("message", {}).get("content", "")
     if "</think>" in answer:                      # dự phòng nếu suy nghĩ vẫn lọt vào content
         answer = answer.split("</think>", 1)[1]
@@ -133,7 +136,8 @@ def generate(question, context):
 
 def citation_check(answer, hits):
     """Lab 5: do the cited IDs exist among the retrieved entries? (not a fact check)"""
-    cited = set(re.findall(r"\[(G\d+)\]", answer))
+    # every G-number inside any [...], so both [G01] and [G13, G01] count
+    cited = {g for group in re.findall(r"\[([^\]]*)\]", answer) for g in re.findall(r"G\d+", group)}
     return {"cited_ids": sorted(cited), "unknown_ids": sorted(cited - {h["id"] for h in hits})}
 
 
