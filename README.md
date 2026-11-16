@@ -86,29 +86,29 @@ assistant says "I don't know" instead of guessing.
 ### Decomposition
 
 ```text
-┌────────────────────┐  in:  email, password
-│ 1. Sign-in         │  out: signed-in user (uid, email), or an error message
-└─────────┬──────────┘
+┌────────────────────┐  input:  email, password
+│ 1. Sign-in         │ 
+└─────────┬──────────┘  output: signed-in user (uid, email), or an error message
           ▼
-┌────────────────────┐  in:  16 guide entries (once, cached) and the question
-│ 2. Embed           │  out: one vector per entry, one vector for the question
-└─────────┬──────────┘
+┌────────────────────┐  input:  16 guide entries (once, cached) and the question
+│ 2. Embed           │  
+└─────────┬──────────┘  output: one vector per entry, one vector for the question
           ▼
-┌────────────────────┐  in:  question vector, entry vectors
-│ 3. Retrieve        │  out: top 3 entries with cosine scores
-└─────────┬──────────┘       (best score < 0.30 → skip to 6 with "I don't know")
+┌────────────────────┐  input:  question vector, entry vectors
+│ 3. Retrieve        │  output: top 3 entries with cosine scores
+└─────────┬──────────┘  (best score < 0.30 → skip to 6 with "I don't know")
           ▼
-┌────────────────────┐  in:  top 3 entries
-│ 4. Build context   │  out: one text block: [G03] title, text, (Source: …)
-└─────────┬──────────┘
+┌────────────────────┐  input:  top 3 entries
+│ 4. Build context   │  
+└─────────┬──────────┘  output: one text block: [G03] title, text, (Source: …)
           ▼
-┌────────────────────┐  in:  rules + context + question
-│ 5. Generate        │  out: answer with [Gxx] citations, or "I don't know"
-└─────────┬──────────┘
+┌────────────────────┐  input:  rules + context + question
+│ 5. Generate        │  
+└─────────┬──────────┘  output: answer with [Gxx] citations, or "I don't know"
           ▼
-┌────────────────────┐  in:  answer, top 3 entries with scores
-│ 6. Display         │  out: chat message, sources panel with scores,
-└────────────────────┘       history kept in st.session_state
+┌────────────────────┐  input:  answer, top 3 entries with scores
+│ 6. Display         │  
+└────────────────────┘  output: chat message, sources panel with scores, history kept in st.session_state       
 ```
 
 ### Pattern recognition
