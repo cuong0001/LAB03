@@ -80,8 +80,6 @@ best time to visit, getting from Hanoi, Cat Bi Airport).
 | `source` | Shown with the entry, so the user knows where the fact comes from |
 | `category`, `tags` (places only) | Describe the kind of place (beach, food, museum…). RAG-Rec will use them to filter and score places |
 
-I did not keep prices or opening hours, because they change often. For those questions the
-assistant says "I don't know" instead of guessing.
 
 ### Decomposition
 
@@ -158,13 +156,13 @@ answer(question):
     save the question and reply in st.session_state
 ```
 
-**Design decision: the "I don't know" rule, with a real example**
+**Design decision: the "I don't know" rule**
 
 The rule has two layers.
 
 1. **Score threshold, `MIN_SCORE` = 0.30.**
    - The weakest answerable test question, "Where can I see rare monkeys with golden heads?", scored 0.44.
-   - "What is the best hospital in the city?" scored only 0.28.
+   - Example: "What is the best hospital in the city?" scored only 0.28.
    - So 0.30 stops the hospital question before the model is called, and every answerable question still passes.
 2. **Rule in the prompt.**
    - "How much is a ticket to the Opera House?" scores 0.38, because the Opera House is in my guide (G05), so it passes the threshold.
