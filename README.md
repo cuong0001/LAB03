@@ -185,8 +185,10 @@ Run of `python test_rag.py` (`MIN_SCORE = 0.30`, temperature 0.1):
 | 6 | Not in guide | How much is a ticket to the Opera House? | - | G05 (0.38), G09 (0.26), G07 (0.26) | I don't know | Yes | - |
 | 7 | Not in guide | What is the best hospital in the city? | - | G07 (0.28), G11 (0.23), G14 (0.22) | I don't know | Yes | - |
 | 8 | Answerable (two entries) | How long does it take to go from Hanoi to Cat Ba? | G13 + G01 | G13 (0.57), G01 (0.49), G14 (0.48) | 1.5 to 2 hours and 15 to 20 minutes [G13, G01] | Partly | Generation: both entries were retrieved, but the answer only lists the two times and leaves out the drive from the city across the bridge to Got pier. In an earlier run with the same retrieval the model answered "I don't know", so the result is not stable |
+| 9 | Paraphrase (statement) | I want to go trekking in a jungle | G03 | G03 (0.23), G16 (0.21), G12 (0.19) | I don't know | No | Retrieval: the right entry is ranked first, but its score 0.23 is below `MIN_SCORE` 0.30, so the app answers "I don't know" without calling the model. G03 talks about a "hiking trail" and a "forested interior", not "trekking" or "jungle". Asked as a question ("Where can I go trekking in a jungle?") it scores 0.34 and is answered correctly |
 
-Row 8 is a harder question that needs two entries; it is the failure shown in the video.
+Row 9 is the complete failure shown in the video. It fails the same way on every run, because
+it is stopped by the threshold before the model is called.
 
 **Design decision: temperature 0.1 instead of 0.** With temperature 0 (always the most likely
 token), `qwen3:4b` sometimes repeated the same reasoning until it hit `num_predict`, for example
@@ -199,7 +201,9 @@ to the guide by retrieval, the system prompt and `MIN_SCORE`, not by the tempera
 ## Known limitations
 
 - The guide has only 16 entries; anything outside them is answered with "I don't know".
-- `MIN_SCORE` was checked on 8 questions only. Row 7 is below the threshold by just 0.02, so a
+- The threshold also blocks answerable questions that are worded differently from the guide
+  (row 9: a statement instead of a question, "trekking in a jungle" instead of "hiking trail").
+- `MIN_SCORE` was checked on 9 questions only. Row 7 is below the threshold by just 0.02, so a
   similar off-guide question may pass it and rely on the prompt rule alone.
 - Questions that need facts from two entries (row 8) are answered only partly or refused, and
   the result can change between runs because temperature is above 0.

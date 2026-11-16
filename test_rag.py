@@ -10,6 +10,7 @@ TESTS = [  # (type, question, expected entry ID or "-")
     ("not in guide", "How much is a ticket to the Opera House?", "-"),  # topic exists, fact missing
     ("not in guide", "What is the best hospital in the city?", "-"),    # topic missing entirely
     ("answerable (two entries)", "How long does it take to go from Hanoi to Cat Ba?", "G13 + G01"),
+    ("paraphrase (statement)", "I want to go trekking in a jungle", "G03"),  # fails: 0.23 < MIN_SCORE
 ]
 
 rag.check_server()
