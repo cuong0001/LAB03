@@ -2,7 +2,7 @@
 
 **Student:** Trần Kiên Cường — 25127025 — 25C09 <br>
 **City:** Hai Phong, Vietnam <br>
-**Demo video:** WIP
+**Demo video:** [Youtube](https://www.youtube.com/watch?v=W94e8-rUDrg)
 
 A Streamlit travel assistant for Hai Phong. Users sign in with Firebase (email/password).
 The chat answers only from `knowledge_base.json` using RAG (`embeddinggemma` for retrieval,
